@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Theme of the editor -->
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/editorColorPrimary</item>
+        <item name="colorPrimaryDark">@color/editorColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for a product_item_category in the editor -->
+    <style name="CategoryStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- Style for an EditText field in the editor -->
+    <style name="EditorFieldStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for the currency for an EditText field in the editor -->
+    <style name="EditorUnitsStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!--Item Name-->
+    <style name="ItemName">
+    <item name="android:textSize">@dimen/twentySp</item>
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Item Price-->
+    <style name="ItemPrice">
+        <item name="android:textSize">@dimen/twentySp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+
+    <!--Item Quantity-->
+    <style name="ItemQuantity">
+        <item name="android:textSize">@dimen/twentySp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+
+    <!--Item Description Text-->
+    <style name="ItemDescription">
+        <item name="android:textSize">@dimen/sixteenSp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

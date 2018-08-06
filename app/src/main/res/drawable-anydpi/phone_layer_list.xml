@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/round_bkg_dark" />
+    <item
+        android:gravity="center"
+        android:right="@dimen/twentyDp"
+        android:left="@dimen/twentyDp"
+        android:top="@dimen/twentyDp"
+        android:bottom="@dimen/twentyDp"
+        android:drawable="@drawable/ic_phone" />
+</layer-list>

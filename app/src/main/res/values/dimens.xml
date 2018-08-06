@@ -1,0 +1,24 @@
+<resources>
+    <!-- Margin around the floating action button in InventoryActivity -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_margin">16dp</dimen>
+
+    <!--DP s-->
+    <dimen name="twoDp">2dp</dimen>
+    <dimen name="sixDp">6dp</dimen>
+    <dimen name="eightDp">8dp</dimen>
+    <dimen name="tenDp">10dp</dimen>
+    <dimen name="sixteenDp">16dp</dimen>
+    <dimen name="twentyDp">20dp</dimen>
+    <dimen name="thirtyFiveDp">35dp</dimen>
+    <dimen name="thirtyDp">30dp</dimen>
+    <dimen name="itemImageSize">130dp</dimen>
+    <dimen name="saleBtnSize">100dp</dimen>
+    <dimen name="itemTextMargin">112dp</dimen>
+    <!--SP s-->
+    <dimen name="twentySp">20sp</dimen>
+    <dimen name="fourteenSp">14sp</dimen>
+    <dimen name="twelveSp">12sp</dimen>
+    <dimen name="sixteenSp">16sp</dimen>
+</resources>

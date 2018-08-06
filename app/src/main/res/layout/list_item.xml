@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sixDp"
+        card_view:cardCornerRadius="@dimen/sixDp"
+        card_view:contentPadding="@dimen/sixteenDp">
+        <!--Start Item details Views-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <!--Item Image View-->
+            <ImageView
+                android:id="@+id/item_thumb"
+                android:layout_width="@dimen/itemImageSize"
+                android:layout_height="@dimen/itemImageSize"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/sixteenDp"
+                android:layout_marginEnd="@dimen/sixteenDp"
+                android:contentDescription="@string/image_thumbnail"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+            <!--Sale Button-->
+            <Button
+                android:id="@+id/sale_btn"
+                android:layout_marginTop="@dimen/sixDp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/item_thumb"
+                android:layout_width="@dimen/itemImageSize"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="@string/sale"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/twentySp"/>
+            <!--Edit Button-->
+            <Button
+                android:id="@+id/edit_btn"
+                android:layout_marginTop="@dimen/sixDp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/sale_btn"
+                android:layout_width="@dimen/itemImageSize"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/edit"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/twentySp"/>
+            <!--Start Item Name Views-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toRightOf="@id/item_thumb"
+                android:layout_toEndOf="@id/item_thumb">
+                <!--Type Word TV-->
+                <TextView
+                    android:id="@+id/type_word_tv"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type" />
+                <!--Item Type TV-->
+                <TextView
+                    android:id="@+id/type_tv"
+                    style="@style/ItemQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="casual" />
+                <!--Name Word TV-->
+                <TextView
+                    android:id="@+id/name_word_tv"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name" />
+                <!--Item name TV-->
+                <TextView
+                    android:id="@+id/name_tv"
+                    style="@style/ItemName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Casual Shoes" />
+                <!--Price Word TV-->
+                <TextView
+                    android:id="@+id/price_word_tv"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price" />
+                <!--Item Price TV-->
+                <TextView
+                    android:id="@+id/price_tv"
+                    style="@style/ItemPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="650" />
+                <!--Quantity Word TV-->
+                <TextView
+                    android:id="@+id/quantity_word_tv"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quantity" />
+                <!--Item Quantity TV-->
+                <TextView
+                    android:id="@+id/quantity_tv"
+                    style="@style/ItemQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="1500" />
+                <!--Description Word TV-->
+                <TextView
+                    android:id="@+id/description_word_tv"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description" />
+                <!--Item Description TV-->
+                <TextView
+                    android:id="@+id/description_tv"
+                    style="@style/ItemDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    tools:text="@string/dummy_description" />
+                <!--Supplier name TV-->
+                <TextView
+                    android:id="@+id/supplier_name_tv"
+                    style="@style/ItemName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Main Supplier" />
+                <!--Supplier Phone Number TV-->
+                <TextView
+                    android:id="@+id/phone_tv"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="01008887112" />
+                <!--End Item Name Views-->
+            </LinearLayout>
+            <!--End item details Views-->
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

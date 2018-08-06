@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the product Category Type drop-down Spinner -->
+    <string-array name="array_type_options">
+        <item>@string/type_casual</item>
+        <item>@string/type_life_style</item>
+        <item>@string/type_formal</item>
+        <item>@string/type_cotton_socks</item>
+        <item>@string/type_care_products</item>
+        <item>@string/type_belts_and_wallets</item>
+    </string-array>
+
+    <!-- These are the options displayed in the In Stock type drop-down Spinner -->
+    <string-array name="array_availability_options">
+        <item>@string/item_in_stock</item>
+        <item>@string/item_out_stock</item>
+    </string-array>
+
+    <!-- These are the options displayed in the Supplier Name type drop-down Spinner -->
+    <string-array name="array_supplier_name_options">
+        <item>@string/supplier_main</item>
+        <item>@string/supplier_number_one</item>
+        <item>@string/supplier_number_two</item>
+        <item>@string/supplier_number_three</item>
+    </string-array>
+
+
+</resources>
